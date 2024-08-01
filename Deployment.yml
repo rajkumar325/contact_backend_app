@@ -17,6 +17,7 @@ spec:
     containers:
     - name: contactbackendcontainer
       image: rajkumar167r/contact_backend_app
+      imagePullPolicy: IfNotPresent
       ports:
       - containerPort: 8080
 ---
