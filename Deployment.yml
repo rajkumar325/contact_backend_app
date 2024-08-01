@@ -16,7 +16,7 @@ spec:
   spec:
     containers:
     - name: contactbackendcontainer
-      image: rajkumar167r/contact_backend_app:latest
+      image: rajkumar167r/contact_backend_app
       ports:
       - containerPort: 8080
 ---
